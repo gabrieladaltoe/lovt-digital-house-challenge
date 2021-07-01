@@ -4,6 +4,177 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 93.75%;
+}
+
 body{
     font-family: 'Ropa Sans', sans-serif;
 }
+
+main{
+    margin-top: 80px;
+}
+
+/*-----Header-----*/
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(119, 119, 119, 1)
+}
+
+
+header .logo-main{
+    font-size: 2.7rem;
+    margin-right: 5px;text-transform: uppercase;
+}
+
+header button{
+    cursor: pointer;
+    color: #AAAAAA;
+    border: 0;
+    padding: 5px;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+header button:hover{
+    color: rgb(34, 34, 34);
+    transition: 1s;
+}
+
+/*-----Nav-----*/
+
+
+
+/*-----slider-----*/
+
+#slider{
+    height: 300px;
+    width: 60%;
+    margin: 120px auto 30px;
+    background: url(/img/Rectangle3.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#slider button{
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#slider button:hover{
+    background: rgba(0, 0, 0, .7);
+    transition: 1s;
+}
+
+
+/*-----homes-----*/
+
+#homes .section-container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#homes .card-item{
+    width: 325px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#homes .card-item img{
+    width: 325px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#homes .card-content{
+    padding: 15px;
+    margin: 0;
+    background: rgb(228, 228, 228);
+    border: 0
+}
+
+#homes .amount{
+    color: #888888;
+    font-size: 2rem;
+}
+
+#homes .card-highlight{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#homes .label{
+    color: #fff;
+    background: rgb(63, 62, 62);
+    padding: 4px 15px 0px; 
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+
+#homes .label.new-label{
+    background: rgba(81, 210, 117, 1);
+}
+
+#homes .label.sale-label{
+    background: rgba(220, 151, 48, 1);
+}
+
+#homes .card-text{
+    color: rgba(85, 85, 85, 1);
+}
+/*-----footer-----*/
+
+
+
+footer{
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
