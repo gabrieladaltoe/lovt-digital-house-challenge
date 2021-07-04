@@ -12,6 +12,10 @@ body{
     font-family: 'Ropa Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 main{
     margin-top: 80px;
 }
@@ -74,8 +78,8 @@ header button:hover{
 /*-----slider-----*/
 
 #slider{
-    height: 300px;
-    width: 60%;
+    height: 400px;
+    width: 80%;
     margin: 120px auto 30px;
     background: url(/img/Rectangle3.png) center center no-repeat;
     background-size: cover;
@@ -168,13 +172,113 @@ header button:hover{
 #homes .card-text{
     color: rgba(85, 85, 85, 1);
 }
+
+/*----- style homes------*/
+#style{
+    padding: 30px 0;
+}
+
+#style h2{
+    color: rgba(85, 85, 85, 1);
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#style .section-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#style .pick-style--itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#style .pick-style-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; 
+    width: 900px;   
+}
+
+.pick-style-item.style1{
+    background: url(../img/Rectangle11.png) center center no-repeat;
+    background-color: #969696;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 150px;
+    width: 80%;
+}
+
+
+.pick-style-item.style2{
+    background: url(../img/Rectangle12.png) center center no-repeat;
+    background-color: #969696;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 150px;
+    width: 80%;
+}
+
+.pick-style-item.style3{
+    background: url(../img/Rectangle13.png) center center no-repeat;
+    background-color: #969696;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 150px;
+    width: 80%;
+}
+
+#style .pick-style--title{
+    color: #fff;
+    font-size: 1.6rem;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+
+
 /*-----footer-----*/
 
 
 
 footer{
-    background: #000;
+    background: rgba(51, 51, 51, 1);
     display: flex;
     justify-content: space-around;
+    padding: 50px 10%;
 }
 
+.map iframe {
+    border-radius: 25px;
+}
+
+footer .contact{
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+footer p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.social-media--icons a img{
+    width: 30px;
+    width: 30px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.social-media--icons a img:hover{
+    opacity: 1;
+}
